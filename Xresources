@@ -1,0 +1,113 @@
+! Xft settings ---------------------------------------------------------------
+
+Xft.dpi: 96
+Xft.antialias: true
+Xft.rgba: rgb
+Xft.hinting: true
+Xft.hintstyle: hintslight
+
+!-------------------------------------------------------------------------------
+!
+! U R X V T - Settings
+!
+URxvt*saveLines: 3100
+URxvt*geometry: 111x27
+URxvt*borderLess: false
+URxvt*depth: 96
+URxvt*scrollBar_right: false
+URxvt*scrollBar: false
+URxvt*cursorBlink: true
+URxvt*cursorUnderline: true
+URxvt*scrollColor: #111111
+URxvt*internalborder: 6
+URxvt.background: #2C2C2C
+URxvt.foreground: #DCDCDC
+URxvt.letterSpace: -1
+!URxvt.clipboard.autocopy: true
+URxvt.keysym.Shift-Control-V: perl:clipboard:paste
+URxvt.iso14755: False
+URxvt.perl-ext-common: default,clipboard
+
+! rxvt-unicode
+URxvt*urgentOnBell: true
+
+urxvt*color0: #3f3f3f
+urxvt*color1: #705050
+urxvt*color2: #60b48a
+urxvt*color3: #dfaf8f
+urxvt*color4: #9ab8d7
+urxvt*color5: #dc8cc3
+urxvt*color6: #8cd0d3
+urxvt*color7: #dcdcdc
+urxvt*color8: #709080
+urxvt*color9: #dca3a3
+urxvt*color10: #72d5a3
+urxvt*color11: #f0dfaf
+urxvt*color12: #94bff3
+urxvt*color13: #ec93d3
+urxvt*color14: #93e0e3
+urxvt*color15: #ffffff
+
+! enable clickable links
+URxvt*urlLauncher: firefox
+URxvt*matcher.button: 1
+URxvt*matcher.pattern.1: \\b(mailto|http|https|ftp|file):[/]*[\\w-]\\.[\\w./?&@#-]*[\\w/-]
+URxvt*matcher.pattern.2: \\bwww\\.[\\w-]\\.[\\w./?&@#-]*[\\w/-]
+
+URxvt*tabbed.tabbar-fg: 11
+URxvt*tabbed.tabbar-bg: 0
+URxvt*tabbed.tab-fg: 14
+URxvt*tabbed.tab-bg: 0
+URxvt*font: xft:inconsolata:size=11:antialias=true
+
+!-------------------------------------------------------------------------------
+!
+! XScreensaver - Settings
+!
+
+! Resources for the password and splash-screen dialog boxes of
+! the "xscreensaver" daemon.
+xscreensaver.Dialog.headingFont: *-helvetica-bold-r-*-*-*-180-*-*-*-iso8859-1
+xscreensaver.Dialog.bodyFont: *-helvetica-bold-r-*-*-*-140-*-*-*-iso8859-1
+xscreensaver.Dialog.labelFont: *-helvetica-bold-r-*-*-*-140-*-*-*-iso8859-1
+xscreensaver.Dialog.unameFont: *-helvetica-bold-r-*-*-*-120-*-*-*-iso8859-1
+xscreensaver.Dialog.buttonFont: *-helvetica-bold-r-*-*-*-140-*-*-*-iso8859-1
+xscreensaver.Dialog.dateFont: *-helvetica-medium-r-*-*-*-80-*-*-*-iso8859-1
+
+! Helvetica asterisks look terrible.
+xscreensaver.passwd.passwdFont: *-courier-medium-r-*-*-*-140-*-*-*-iso8859-1
+
+
+xscreensaver.Dialog.foreground: #000000
+xscreensaver.Dialog.background: #E6E6E6
+xscreensaver.Dialog.Button.foreground: #000000
+xscreensaver.Dialog.Button.background: #F5F5F5
+
+!*Dialog.Button.pointBackground: #EAEAEA
+!*Dialog.Button.clickBackground: #C3C3C3
+xscreensaver.Dialog.text.foreground: #000000
+xscreensaver.Dialog.text.background: #FFFFFF
+xscreensaver.passwd.thermometer.foreground: #4464AC
+xscreensaver.passwd.thermometer.background: #FFFFFF
+xscreensaver.Dialog.topShadowColor: #FFFFFF
+xscreensaver.Dialog.bottomShadowColor: #CECECE
+xscreensaver.Dialog.logo.width: 210
+xscreensaver.Dialog.logo.height: 210
+xscreensaver.Dialog.internalBorderWidth: 24
+xscreensaver.Dialog.borderWidth: 1
+xscreensaver.Dialog.shadowThickness: 2
+
+xscreensaver.passwd.heading.label: XScreenSaver %s
+xscreensaver.passwd.body.label: This screen is locked.
+xscreensaver.passwd.unlock.label: OK
+xscreensaver.passwd.login.label: New Login
+xscreensaver.passwd.user.label: Username:
+xscreensaver.passwd.thermometer.width: 8
+xscreensaver.passwd.asterisks: True
+xscreensaver.passwd.uname: True
+
+xscreensaver.splash.heading.label: XScreenSaver %s
+xscreensaver.splash.body.label: Copyright © 1991-2013 by
+xscreensaver.splash.body2.label: Jamie Zawinski <jwz@jwz.org>
+xscreensaver.splash.demo.label: Settings
+xscreensaver.splash.help.label: Help
